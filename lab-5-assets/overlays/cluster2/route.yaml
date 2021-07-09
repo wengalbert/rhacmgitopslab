@@ -3,4 +3,4 @@ kind: Route
 metadata:
   name: the-route
 spec:
-  host: web-app.apps.cluster-df04.gcp.testdrive.openshift.com
+  host: web-app.apps.dc2.ocp.com

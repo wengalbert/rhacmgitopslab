@@ -8,4 +8,4 @@ metadata:
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: cluster1
+      clusterid: dc1
