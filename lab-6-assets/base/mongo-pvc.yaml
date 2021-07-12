@@ -6,6 +6,7 @@ metadata:
   name: mongo
   namespace: mongo
 spec:
+  storageClassName: managed-nfs-storage
   accessModes:
    - ReadWriteOnce
   resources:
