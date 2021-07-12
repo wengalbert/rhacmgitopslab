@@ -4,4 +4,4 @@ metadata:
   name: mongo
   namespace: mongo
 spec:
-  host: mongocluster3route
+  host: mongo-cluster3.apps.dc3.ocp.com

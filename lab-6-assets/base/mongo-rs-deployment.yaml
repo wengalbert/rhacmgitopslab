@@ -49,9 +49,9 @@ spec:
         - name: MONGODB_REPLICA_NAME
           value: "rs0"
         - name: PRIMARY_NODE
-          value: "primarynodehere"
+          value: "mongo-cluster1.apps.dc1.ocp.com:443"
         - name: REPLICA_MEMBERS
-          value: "replicamembershere"
+          value: "mongo-cluster1.apps.dc1.ocp.com:443,mongo-cluster2.apps.dc2.ocp.com:443,mongo-cluster3.apps.dc3.ocp.com:443"
         volumeMounts:
         - mountPath: /data/db
           name: mongodb-data
